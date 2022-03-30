@@ -1,0 +1,17 @@
+ {
+     "baseUrl": "http://localhost:8081/",
+     "chromeWebSecurity": false,
+     "testFiles": "**/*.feature",
+     "screenshotsFolder": "cypress/reports/mochareports/assets",
+     "reporter": "cypress-multi-reporters",
+     "reporterOptions": {
+         "reporterEnabled": "mochawesome",
+         "mochawesomeReporterOptions": {
+             "reportDir": "cypress/reports/mocha",
+             "quite": true,
+             "overwrite": false,
+             "html": true,
+             "json": true
+         }
+     }
+ }
